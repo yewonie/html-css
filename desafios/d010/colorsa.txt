@@ -1,0 +1,11 @@
+background = #84E1AD
+video + footer + h1 = #1A5C38
+
+caixa + back fonte= #C5EBD6
+topo caixa = #2FA866
+
+Degrade
+#39D280
+#32B26B
+#206D42
+#1D603C

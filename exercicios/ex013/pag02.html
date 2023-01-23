@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(204, 191, 191);
+            margin: 0px auto;
+            width: 900px;
+        }
+
+        header {
+            width: 900px;
+            background-color: rgb(94, 82, 82);
+            color: white;
+            padding: 10px 0px;
+            margin: 10px auto;
+            text-align: center;
+        }
+
+        nav {
+            background-color: gray;
+            box-shadow: 1px 1px 7px black;
+            width: 870px;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        #assuntos {
+            width: 500px;
+        }
+
+        #noticias {
+            width: 650px;
+            margin-right: 5px;
+        }
+
+        #lateral {
+            width: 250px;
+        }
+
+        #organizar {
+            display: flex;
+            flex-direction: row;
+        }
+
+        article {
+            background-color: rgb(185, 170, 170);
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        aside {
+            background-color: rgb(124, 114, 114);
+        }
+
+        #lateral > h2 {
+            text-align: center;
+            color: white;
+        }
+
+        #lateral > p {
+            text-align: justify;
+            color: white;
+            padding: 0px 12px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0%; 
+        }
+
+        footer > p {
+            margin: 0px
+        }
+
+        a {
+            color: rgb(44, 38, 38);
+            text-decoration: none;
+            margin-right: 30px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GAMES</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Lançamentos Resenhas Recomendações</p>
+        </section>
+        <section id="organizar">
+            <section id="noticias">
+                <article>
+                    <h2>Resenha sobre Outlast</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aliquid earum facilis iusto, eveniet excepturi ullam alias porro atque magni autem aliquam, suscipit vel mollitia dolor commodi est, itaque nisi.</p>
+                    <aside>
+                    <p>Artigo escrito por Yewon</p>
+                    </aside>
+                </article>
+             </section>
+            <aside id="lateral">
+            <h2>Informações</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae commodi modi vero repudiandae qui dolores veniam porro quaerat recusandae, reiciendis doloribus a quam sunt, quo optio aliquam delectus laborum harum.
+            </p>
+            </aside>
+         </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Yewon</p>
+    </footer>
+</body>
+</html>

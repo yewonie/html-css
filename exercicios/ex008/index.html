@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="A imagem flexível funciona">
+    </picture>
+    <h1>Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="auto" controls autoplay loop>
+        <source src="imagens/The More That I Love You.mp3" type="audio/mpeg">
+        <p>Seu navegador não suporta áudio <a href="imagens/The More That I Love You.mp3" download="the-more-i-love-you.mp3" type="audio/mpeg">Clique aqui para baixar o arquivo.</a></p>
+    </audio>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Vamos aprender a reproduzir vídeos hospedados em meu próprio servidor em HTML5.</p>
+    <video width="560" poster="imagens/16174472_243625192745300_8347412527348074022_n.jpg" controls autoplay>
+        <source src="imagens/Sorry sorry answer K.R.Y..mp4" type="video/mp4">
+        <p>Infelizmente seu navegador não conseguiu carregar o vídeo.</p>
+    </video>
+
+    <h1>Inserindo vídeos do Youtube</h1>
+    <p>Vamos aprender também a reproduzir vídeos que são hospedados em plataformas especializadas para isso.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4zoV8pf6vhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+</body>
+</html>

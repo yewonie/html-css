@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/*Regra @charset caso haja problemas com acentuação*/
+
+body {
+    background-color: gray;
+    text-align: center;
+}
+
+h1 {
+    background-color: rgb(94, 84, 84);
+}
+
+h2 {
+    color: rgb(87, 24, 24);
+}
+
+h3 {
+    color: rgb(45, 16, 73);
+    text-align: left;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    color: rgb(71, 38, 14);
+}

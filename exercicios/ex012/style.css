@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Lets Coffee';
+    src: url(fontes/lets-coffee.otf) format('opentype'), url(fontes/lets-coffee.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    background-color: rgb(169, 241, 208);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    margin: auto;
+}
+
+h1 {
+    color: rgb(18, 61, 41);
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#principal {
+    font-family: 'Lets Coffee', cursive, serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(47, 206, 132);
+}
+
+h2 {
+    color: rgb(7, 134, 75);
+    font-size: 20px;
+}
+
+.basico {
+    text-align: left;
+    color: rgb(9, 204, 19);
+}
+
+.intermediario {
+    text-align: left;
+    color: rgb(159, 170, 0);
+}
+
+.avancado {
+    text-align: left;
+    color: rgb(167, 5, 5);
+}
+
+p {
+    text-align: justify;
+}
