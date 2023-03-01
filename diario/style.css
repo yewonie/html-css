@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+main {
+    display: inline-flexbox;
+    margin: auto;
+}
+
+.page {
+    width: 300px;
+    border: 1px solid black;
+    padding: 0px 5px 5px 5px;
+    text-align: justify;
+}
+
+h3 {
+    background-color: gray;
+    color: white;
+    padding-left: 5px;
+}
