@@ -1,10 +1,14 @@
 @charset "UTF-8";
 
+:root {
+
+}
+
 body {
     max-width: 700px;
+    min-width: 400;
     margin: auto;
     padding: 20px;
-
 }
 
 main {
@@ -33,6 +37,20 @@ main {
     margin-bottom: 20px;
 }
 
+#home {
+    margin: 0px;
+    text-align: center;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(144, 5, 5);
+}
+
+#home:hover {
+    font-size: 20px;
+    color: black;
+}
+
 
 .cima {
     background-color: rgb(144, 5, 5);
@@ -54,7 +72,7 @@ main {
 #page {
     margin: 0px auto;
     width: 290px;
-    height: 550px;
+    height: 450px;
     border: 1px solid black;
     border-radius: 20px;
     box-shadow: 3px 5px 4px 1px gray;
@@ -65,12 +83,13 @@ main {
 .texto {
     margin-bottom: 0px;
     padding: 0px 5px 0px 5px;
+    font-size: 14px;
 }
 
 #tags {
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 0px 3px 2px 3px;
+    padding: 0px 4px 2px 3px;
 }
 
 .tagzinha {
@@ -78,13 +97,7 @@ main {
 }
 
 .texto>p {
-    height: 350px;
+    height: 300px;
     overflow: scroll;
     padding: 5px;
-}
-
-h3 {
-    background-color: rgb(144, 5, 5);
-    color: white;
-    padding-left: 5px;
 }
