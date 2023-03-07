@@ -8,19 +8,34 @@ body {
 }
 
 main {
-    display: inline-flexbox;
-    margin: auto;
+    margin: 100px auto;
+    width: 630px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    row-gap: 10px;
 }
 
 .page {
+    margin: 0px auto;
     width: 300px;
+    height: 420px;
     border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 3px 5px 4px 1px gray;
     padding: 0px 5px 5px 5px;
     text-align: justify;
 }
 
+.page>p {
+    height: 350px;
+    overflow: scroll;
+    padding: 5px;
+}
+
 h3 {
-    background-color: gray;
+    background-color: rgb(144, 5, 5);
     color: white;
     padding-left: 5px;
 }
